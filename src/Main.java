@@ -3,30 +3,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        String pathDirectory = getPathDirectoryFromUser();
+        File directory = new File(pathDirectory);
+
+        FileSizeUsage f1 = DirectorySizeCalculator.calculateDirectorySize(directory, 1, false);
+        FileSizeUsage f2 = DirectorySizeCalculator.calculateDirectorySize(directory, 3, false);
+        FileSizeUsage f3 = DirectorySizeCalculator.calculateDirectorySize(directory, 20, true);
+        FileSizeUsage f4 = DirectorySizeCalculator.calculateDirectorySize(directory, Runtime.getRuntime().availableProcessors() + 1, true);
+
+    }
+
+    public static String getPathDirectoryFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the path of the directory: ");
-        String pathDirectory = scanner.nextLine();
-
-        calculateDirectorySize(pathDirectory, 5, false);
-
+        return scanner.nextLine();
     }
 
-    public static void calculateDirectorySize(String pathDirectory, int threads, boolean useThreadPool) {
-        File file = new File(pathDirectory);
-        File[] files = file.listFiles();
-        if (files == null) {
-            System.err.println("The directory provided does not contain any files");
-            return;
-        }
-        int fileCount = files.length;
-        int fileCountPerThread = fileCount / threads;
-        int remainder = fileCount % threads;
-        FileSizeUsage fileSizeUsage = new FileSizeUsage();
-        for (int i = 0 ; i < threads; i++){
-            FileSizeCalculatorThread fileSizeCalculatorThread = new FileSizeCalculatorThread(fileSizeUsage);
-            fileSizeCalculatorThread.start();
-        }
 
-    }
 }
 

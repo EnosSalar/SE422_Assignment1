@@ -1,10 +1,14 @@
-import java.util.Scanner;
 import java.io.File;
-import java.util.concurrent.*;
-import java.util.concurrent.locks.*;
 
-// Assignment 1 by Ossaid Saadi example@auis.edu.krd and .... 
+// Assignment 1 by Ossaid Saadi example@auis.edu.krd and ....
 public class DirectorySizeCalculator {
+
+    public static FileSizeUsage calculateDirectorySize(File directory, int threads, boolean useThreadPool) {
+
+    }
+
+}
+/*public class DirectorySizeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -66,4 +70,4 @@ public class DirectorySizeCalculator {
             }
         }
     }
-}
+}*/
