@@ -26,4 +26,13 @@ public class FileSizeUsage {
             lock.unlock();
         }
     }
+
+    public void addSize(long extraSize) {
+        lock.lock();
+        try {
+            size += extraSize;
+        } finally {
+            lock.unlock();
+        }
+    }
 }

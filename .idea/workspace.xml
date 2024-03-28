@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc04573a-71ca-4b01-948c-a9764a189629" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArrayDivider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DirectorySizeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectorySizeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileSizeCalculatorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileSizeCalculatorThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileSizeUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileSizeUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,17 +20,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eGI1v6HayUZRQetBqAHDtgsI4v" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DirectorySizeCalculator.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/enos/Desktop/MAC/android_xcode/SE422_Assignment1/src",
@@ -40,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711524276968</updated>
-      <workItem from="1711524277964" duration="3438000" />
+      <workItem from="1711524277964" duration="7118000" />
+      <workItem from="1711606979065" duration="7571000" />
     </task>
     <servers />
   </component>

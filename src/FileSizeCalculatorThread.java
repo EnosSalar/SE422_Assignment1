@@ -1,20 +1,23 @@
-public class FileSizeCalculatorThread extends Thread{
-    private FileSizeUsage fileSizeUsage;
+import java.io.File;
 
-    public void setFileSizeUsage(FileSizeUsage fileSizeUsage) {
-        this.fileSizeUsage = fileSizeUsage;
-    }
+public class FileSizeCalculatorThread extends Thread {
+    private final FileSizeUsage fileSizeUsage;
+    private final File[] files;
+
 
     public FileSizeUsage getFileSizeUsage() {
         return fileSizeUsage;
     }
 
-    public FileSizeCalculatorThread(FileSizeUsage fileSizeUsage){
-        setFileSizeUsage(fileSizeUsage);
+    public FileSizeCalculatorThread(FileSizeUsage fileSizeUsage, File[] files) {
+        this.fileSizeUsage = fileSizeUsage;
+        this.files = files;
     }
 
     @Override
     public void run() {
-
+        for (File file : files) {
+            fileSizeUsage.addSize(file.length());
+        }
     }
 }
