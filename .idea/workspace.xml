@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc04573a-71ca-4b01-948c-a9764a189629" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileSizeCalculatorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileSizeCalculatorThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711524276968</updated>
       <workItem from="1711524277964" duration="7118000" />
-      <workItem from="1711606979065" duration="9301000" />
+      <workItem from="1711606979065" duration="9686000" />
     </task>
     <servers />
   </component>
