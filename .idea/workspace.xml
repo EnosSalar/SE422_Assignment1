@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc04573a-71ca-4b01-948c-a9764a189629" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +43,15 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/enos/Desktop/MAC/android_xcode/SE422_Assignment1/src",
+    "last_opened_file_path": "/Users/enos/Desktop/MAC/android_xcode/SE422_Assignment1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,8 +86,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.158" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.158" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.69" />
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-IU-241.15989.69" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +101,8 @@
       <updated>1711524276968</updated>
       <workItem from="1711524277964" duration="7118000" />
       <workItem from="1711606979065" duration="9686000" />
+      <workItem from="1711865188384" duration="781000" />
+      <workItem from="1715580082829" duration="27000" />
     </task>
     <servers />
   </component>
